@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bhardwaj's Sweets — handcrafted Indian sweets, made fresh for every celebration." />
+    <title>Bhardwaj's Sweets — Sweet moments, made fresh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='29' fill='%23fbf8f3' stroke='%23e96e58' stroke-width='2'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia' font-size='38' fill='%234e2039'%3Eb%3C/text%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div class="announcement">
+      <p><span class="sparkle">✦</span> Free delivery on orders above ₹999 <span class="announcement-dot">•</span> Handcrafted fresh, every day</p>
+      <button class="announcement-close" aria-label="Dismiss announcement">×</button>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Bhardwaj's Sweets home">
+        <span class="brand-mark">b<span>✦</span></span>
+        <span class="brand-name">bhardwaj's sweets</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#shop">Shop sweets</a>
+        <a href="#collections">Collections</a>
+        <a href="#our-story">Our story</a>
+        <a href="#gift">Gifting</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button search-toggle" aria-label="Search products">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.9" cy="10.9" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+        </button>
+        <button class="icon-button" aria-label="Your account">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"></circle><path d="M4.7 20c.7-3.3 3.2-5.2 7.3-5.2s6.6 1.9 7.3 5.2"></path></svg>
+        </button>
+        <button class="cart-button" id="open-cart" aria-label="Open shopping bag">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8.5h14l-1 11H6l-1-11Z"></path><path d="M9 9V6.8a3 3 0 0 1 6 0V9"></path></svg>
+          <span class="cart-count" id="cart-count">0</span>
+        </button>
+        <button class="mobile-menu" id="mobile-menu" aria-label="Open menu"><span></span><span></span></button>
+      </div>
+    </header>
+
+    <div class="search-panel" id="search-panel">
+      <div class="search-panel-inner">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.9" cy="10.9" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+        <input id="search-input" type="search" placeholder="Search kaju katli, laddoo, gifting..." autocomplete="off" />
+        <button id="close-search" aria-label="Close search">×</button>
+      </div>
+    </div>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> Made with love in small batches</div>
+          <h1>Sweet moments,<br /><i>made fresh.</i></h1>
+          <p class="hero-description">A little box of happiness, filled with the finest mithai and made for all of life's lovely occasions.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#shop">Shop our sweets <span>↗</span></a>
+            <a class="text-link" href="#our-story">Discover our story <span>→</span></a>
+          </div>
+          <div class="hero-note">
+            <div class="avatar-stack"><span>R</span><span>M</span><span>A</span></div>
+            <p><strong>Loved by 12,000+</strong><br />sweet tooths across India</p>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-arch"></div>
+          <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1000&q=85" alt="Assorted handcrafted Indian sweets" />
+          <div class="hero-sticker"><span>100%</span><strong>pure<br />ghee</strong></div>
+          <div class="hero-caption"><span>01</span><div><strong>The celebration edit</strong><small>Curated mithai boxes</small></div><span>↗</span></div>
+        </div>
+        <div class="hero-side-note">JOY, IN EVERY BITE <span>✦</span></div>
+      </section>
+
+      <section class="trust-strip" aria-label="Store benefits">
+        <div class="trust-item"><span class="trust-icon">✦</span><div><strong>Always fresh</strong><small>Made to order</small></div></div>
+        <div class="trust-item"><span class="trust-icon">◌</span><div><strong>Pure ingredients</strong><small>Nothing artificial</small></div></div>
+        <div class="trust-item"><span class="trust-icon">↗</span><div><strong>Pan-India delivery</strong><small>Sweetness, delivered</small></div></div>
+        <div class="trust-item"><span class="trust-icon">♡</span><div><strong>Made with love</strong><small>Since 1987</small></div></div>
+      </section>
+
+      <section class="shop-section section-shell" id="shop">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow"><span></span> Find your favourite</div>
+            <h2>Pick your <i>sweet.</i></h2>
+          </div>
+          <a class="text-link desktop-only" href="#shop">View all sweets <span>→</span></a>
+        </div>
+        <div class="category-tabs" id="category-tabs" role="tablist" aria-label="Sweet categories">
+          <button class="category-tab active" data-category="all">All sweets <span>18</span></button>
+          <button class="category-tab" data-category="signature">Signatures <span>06</span></button>
+          <button class="category-tab" data-category="laddoo">Laddoo <span>04</span></button>
+          <button class="category-tab" data-category="barfi">Barfi &amp; katli <span>05</span></button>
+          <button class="category-tab" data-category="gifting">Gift boxes <span>03</span></button>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span>☼</span>
+          <h3>No sweets found</h3>
+          <p>Try a different search or browse all our favourites.</p>
+          <button class="button button-outline" id="reset-search">Show all sweets</button>
+        </div>
+      </section>
+
+      <section class="promo-section section-shell" id="gift">
+        <div class="promo-card">
+          <div class="promo-copy">
+            <div class="eyebrow light"><span></span> A box full of joy</div>
+            <h2>Make it a <i>sweet</i><br />surprise.</h2>
+            <p>From first hellos to big milestones, find a thoughtful box for every person and every little reason to celebrate.</p>
+            <a class="button button-light" href="#shop">Explore gifting <span>↗</span></a>
+          </div>
+          <div class="promo-image-wrap">
+            <img src="https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=900&q=85" alt="Mithai gift box with pink flowers" />
+            <span class="promo-label">A little<br /><i>something</i><br />special</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section section-shell" id="our-story">
+        <div class="story-image">
+          <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=85" alt="Traditional sweets being prepared in a kitchen" />
+          <div class="story-stamp"><span>Est.</span><strong>1987</strong><span>with love</span></div>
+        </div>
+        <div class="story-copy">
+          <div class="eyebrow"><span></span> The mithai behind the magic</div>
+          <h2>Old recipes.<br /><i>New memories.</i></h2>
+          <p>What started as a tiny sweet counter in Jaipur is now a family of makers, packing a little piece of home for you.</p>
+          <p class="story-secondary">We still roll every laddoo by hand, roast every nut until golden, and believe the best ingredient is time.</p>
+          <a class="text-link" href="#our-story">Read our story <span>→</span></a>
+          <div class="signature">Bhardwaj's Sweets <span>♥</span></div>
+        </div>
+      </section>
+
+      <section class="newsletter-section section-shell" id="collections">
+        <div class="newsletter-card">
+          <div class="newsletter-orb orb-one"></div><div class="newsletter-orb orb-two"></div>
+          <div class="newsletter-copy"><span class="newsletter-icon">✦</span><div><div class="eyebrow light"><span></span> Stay in the loop</div><h2>Sweet news,<br /><i>straight to you.</i></h2></div></div>
+          <form class="newsletter-form" id="newsletter-form">
+            <label for="newsletter-email">Your email address</label>
+            <div class="input-row"><input id="newsletter-email" type="email" placeholder="you@example.com" required /><button type="submit" aria-label="Subscribe">→</button></div>
+            <p id="newsletter-message">No spam, just new sweets and sweet little offers.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top section-shell">
+        <div class="footer-brand"><a class="brand" href="#"><span class="brand-mark">b<span>✦</span></span><span class="brand-name">bhardwaj's sweets</span></a><p>A little box of happiness,<br />made fresh for you.</p><div class="socials"><a href="https://www.instagram.com/bhardwaj_reeshav/?hl=en" aria-label="Instagram">ig</a><a href="https://www.facebook.com/reeshav.bhardwaj.1/" aria-label="Facebook">f</a><a href="#" aria-label="Pinterest">p</a></div></div>
+        <div class="footer-column"><h3>Shop</h3><a href="#shop">All sweets</a><a href="#shop">Signatures</a><a href="#shop">Gift boxes</a><a href="#shop">Festive edit</a></div>
+        <div class="footer-column"><h3>Help</h3><a href="#">Contact us</a><a href="#">Delivery &amp; returns</a><a href="#">FAQs</a><a href="#">Track your order</a></div>
+        <div class="footer-column"><h3>Say hello</h3><a href="mailto:hello@bhardwajssweets.in">hello@bhardwajssweets.in</a><a href="tel:+917045464337">+91 70454 64337</a><p class="footer-address">Mon–Sat, 10am–7pm<br />Marol Pipe Line, Andheri East<br />Mumbai 400059</p></div>
+      </div>
+      <div class="footer-bottom section-shell"><span>© 2024 Bhardwaj's Sweets</span><span>Made for sweet moments <b>♥</b></span><span>Privacy · Terms</span></div>
+    </footer>
+
+
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping bag" aria-hidden="true">
+      <div class="drawer-header"><div><span class="eyebrow"><span></span> Your bag</div><h2>Sweet picks <span id="drawer-count">(0)</span></h2></div><button class="close-drawer" id="close-cart" aria-label="Close shopping bag">×</button>
+      <div class="cart-content" id="cart-content"></div>
+      <div class="cart-footer" id="cart-footer"></div>
+    </aside>
+
+    <div class="checkout-overlay" id="checkout-overlay">
+      <div class="checkout-modal">
+        <button class="close-checkout" id="close-checkout" aria-label="Close checkout">×</button>
+        <div class="checkout-heading"><span class="modal-mark">✦</span><div class="eyebrow"><span></span> Almost there</div><h2>Send some <i>sweetness.</i></h2><p>Tell us where to deliver your order.</p></div>
+        <form id="checkout-form" class="checkout-form">
+          <label>Full name<input name="name" type="text" placeholder="Your name" required /></label>
+          <label>Phone number<input name="phone" type="tel" placeholder="+91 98765 43210" required /></label>
+          <label>Delivery address<textarea name="address" rows="3" placeholder="House no., street, city, pincode" required></textarea></label>
+          <button type="submit" class="button button-primary full-button">Place order <span>↗</span></button>
+        </form>
+        <div class="order-success" id="order-success" hidden><span>✦</span><h3>Order received!</h3><p>We’ll call you shortly to confirm your sweet delivery.</p><button class="button button-outline" id="continue-shopping">Continue shopping</button></div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
