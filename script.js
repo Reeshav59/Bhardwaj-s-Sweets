@@ -1,20 +1,3 @@
-/*
-  BHARDWAJ'S SWEETS - SIMPLE SHOPPING WEBSITE
-
-  This file controls:
-  1. Showing the sweet products
-  2. Searching and filtering products
-  3. Adding products to the shopping bag
-  4. Opening and closing the cart
-  5. Showing the checkout form
-
-  The products are stored in this file for now.
-  A real shop would usually get this information from a database.
-*/
-
-// -----------------------------
-// Product information
-// -----------------------------
 
 var products = [
   {
@@ -22,7 +5,7 @@ var products = [
     name: "Elaichi Shrikhand",
     category: "signature",
     details: "250g · serves 4–5",
-    price: 595,
+    price: 350,
     badge: "Bestseller",
     image: "https://brijwasioriginal.com/assets/images/slice/our_products/shrikhand/04_elaichi_shrikhand.jpg"
   },
@@ -31,7 +14,7 @@ var products = [
     name: "Special Motichoor Laddoo",
     category: "laddoo",
     details: "6 pieces · 300g",
-    price: 445,
+    price: 300,
     badge: "Most loved",
     image: "https://brijwasioriginal.com/assets/images/slice/our_products/mawa-design-sweets/01_sp_motichoor_ladoo.jpg"
   },
@@ -40,7 +23,7 @@ var products = [
     name: "Kaju Katli",
     category: "barfi",
     details: "250g · serves 4–5",
-    price: 650,
+    price: 350,
     badge: "Classic",
     image: "https://static.toiimg.com/thumb/55048826.cms?width=1200&height=900"
   },
@@ -49,7 +32,7 @@ var products = [
     name: "The Celebration Box",
     category: "gifting",
     details: "16 pieces · 450g",
-    price: 1295,
+    price: 900,
     badge: "Gift favourite",
     image: "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?auto=format&fit=crop&w=700&q=85"
   },
@@ -58,7 +41,7 @@ var products = [
     name: "Rasgulla",
     category: "signature",
     details: "4 pieces · chilled",
-    price: 495,
+    price: 250,
     badge: "Fresh today",
     image: "https://brijwasioriginal.com/assets/images/slice/our_products/bengali_sweets/11_rasgulla.jpg"
   },
@@ -67,16 +50,16 @@ var products = [
     name: "Besan Ghee Laddoo",
     category: "laddoo",
     details: "6 pieces · 300g",
-    price: 395,
+    price: 200,
     badge: "Grandma's recipe",
     image: "https://humbleflavors.com/cdn/shop/products/Besan_1024x1024px.jpg?v=1663336102"
   },
   {
     id: 7,
     name: "Rose Coconut Barfi",
-    category: "barfi",
+    category: "barfi ",
     details: "250g · serves 4–5",
-    price: 475,
+    price: 375,
     badge: "New",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuSaeKdJoV6rcxdRIUeiVVkmwo4LiQT_0Is4vSZ7rM2NmbcUs1aFMbrjeO&s=10"
   },
@@ -85,19 +68,68 @@ var products = [
     name: "The Little Joy Box",
     category: "gifting",
     details: "9 pieces · 250g",
-    price: 795,
+    price: 500,
     badge: "Sweet pick",
     image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=85"
   },
+ 
+  {
+    id: 10,
+    name: "Jalebii",
+    category: "signature",
+    details: "1 pieces · 150g",
+    price: 100,
+    badge: "Sweet pick",
+    image: "https://www.ruchiskitchen.com/wp-content/uploads/2017/03/Jalebi-recipe-1-1.jpg"
+  },
    {
-    id: 9,
+    id: 11,
+    name: "Boondi Laddoo",
+    category: "laddoo",
+    details: " 150g",
+    price: 100,
+    badge: "Sweet pick",
+    image: "https://aromaticessence.co/wp-content/uploads/2022/10/sweet_boondi_1.jpg"
+  },
+   {
+    id: 12,
+    name: "Mawa Barfi",
+    category: "barfi",
+    details: " 9 pieces · 250g",
+    price: 200,
+    badge: "CLASSIC",
+    image: "https://brijwasioriginal.com/assets/images/slice/our_products/mawa-design-sweets/54_mawa_barfi.jpg"
+  },
+  {
+    id: 13,
+    name: "Chocolate Barfi",
+    category: "barfi",
+    details: " 11 pieces · 300g",
+    price: 350,
+    badge: "CLASSIC",
+    image: "https://brijwasioriginal.com/assets/images/slice/our_products/mawa-design-sweets/52_chocolate_barfi.jpg"
+  },
+  
+     {
+    id: 14,
     name: "Special Samosa ",
     category: "signature",
     details: "1 pieces · 60g",
-    price: 50,
+    price: 30,
     badge: "Sweet pick",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrSow8wiUuIxjfEToV69JWVUKXnNmisjibteHRz3SiFsXMpPswQFhS9QQ&s=10"
+  },
+  
+     {
+    id: 15,
+    name: "Kachori",
+    category: "signature",
+    details: "1 pieces · 70g",
+    price: 35,
+    badge: "Sweet pick",
+    image: "https://static.toiimg.com/thumb/55070757.cms?width=1200&height=900"
   }
+
 ];
 
 // -----------------------------
